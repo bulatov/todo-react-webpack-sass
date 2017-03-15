@@ -1,2 +1,6 @@
-To add task - press Enter.
-To end edit - click outside or press Tab.
+npm install
+webpack
+cd public
+static
+
+localhost:8080
