@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:300);/**
+ * COLORS
+*/
+
+/**
+ * FONTS
+*/
+
+/**
+ * MIXINS
+*/
+
+.input-text {
+  border-bottom: 2px #444 solid;
+  width: 95%;
+  height: 70px;
+  border: 0;
+  margin: 15px 5%;
+  background-color: inherit;
+  color: #bbb;
+  font: inherit;
+}
+
+.input-text:focus {
+  outline: 0;
+}
+
+/**
+ * COLORS
+*/
+
+/**
+ * FONTS
+*/
+
+/**
+ * MIXINS
+*/
+
+.filter {
+  padding-bottom: 10px;
+  margin-left: 5%;
+  color: #bbb;
+  font-size: 0.5em;
+}
+
+.filter__button {
+  margin-right: 5%;
+  cursor: pointer;
+}
+
+.filter__button:hover {
+  color: #fff;
+}
+
+.filter__button:after {
+  content: '/';
+  padding-left: 5%;
+  color: #bbb;
+}
+
+.filter__button_selected {
+  color: #fff;
+}
+
+/**
+ * COLORS
+*/
+
+/**
+ * FONTS
+*/
+
+/**
+ * MIXINS
+*/
+
+.list__list-item {
+  border-top: 2px #444 solid;
+}
+
+.list__task-description {
+  display: inline-block;
+  overflow: hidden;
+  width: 70%;
+  border: 0;
+  margin-bottom: -25px;
+  background: inherit;
+  color: inherit;
+  font: inherit;
+  resize: none;
+}
+
+.list__task-description:focus {
+  outline: 0;
+}
+
+.list__task-description_complete {
+  text-decoration: line-through;
+  color: #555;
+}
+
+.list__complete-button,
+.list__edit-button,
+.list__remove-button {
+  display: inline;
+  width: 40px;
+  height: 40px;
+  margin: 15px 15px 0 0;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.list__complete-button {
+  float: left;
+  background-image: url("/img/complete-icon.png");
+}
+
+.list__complete-button:hover {
+  background-image: url("/img/complete-icon-hover.png");
+}
+
+.list__edit-button {
+  float: right;
+  background-image: url("/img/edit-icon.png");
+}
+
+.list__edit-button:hover {
+  background-image: url("/img/edit-icon-hover.png");
+}
+
+.list__remove-button {
+  float: right;
+  background-image: url("/img/remove-icon.png");
+}
+
+.list__remove-button:hover {
+  background-image: url("/img/remove-icon-hover.png");
+}
+
+.list {
+  list-style-type: none;
+}
+
+/**
+ * COLORS
+*/
+
+/**
+ * FONTS
+*/
+
+/**
+ * MIXINS
+*/
+
+.todo {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #333;
+  color: #ddd;
+  font-family: 'Khula', sans-serif;
+  font-size: 50px;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5jc3M/Iiwic291cmNlcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OyIsInNvdXJjZVJvb3QiOiIifQ==*/

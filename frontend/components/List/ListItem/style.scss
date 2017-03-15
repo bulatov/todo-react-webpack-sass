@@ -1,0 +1,61 @@
+@import './frontend/variables.scss';
+
+.list__list-item {
+    @include divider('top');
+}
+
+.list__task-description {
+    display: inline-block;
+    overflow: hidden;
+    width: 70%;
+    border: 0;
+    margin-bottom: -25px;
+    background: inherit;
+    color: inherit;
+    font: inherit;
+    resize: none;
+    &:focus {
+        outline: 0;
+    }
+}
+
+.list__task-description_complete {
+    text-decoration: line-through;
+    color: $barely-noticeable-color;
+}
+
+%list__button {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    margin: 15px 15px 0 0;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.list__complete-button {
+    @extend %list__button;
+    float: left;
+    background-image: url('/img/complete-icon.png');
+    &:hover {
+        background-image: url('/img/complete-icon-hover.png');
+    }
+}
+
+.list__edit-button {
+    @extend %list__button;
+    float: right;
+    background-image: url('/img/edit-icon.png');
+    &:hover {
+        background-image: url('/img/edit-icon-hover.png');
+    }
+}
+
+.list__remove-button {
+    @extend %list__button;
+    float: right;
+    background-image: url('/img/remove-icon.png');
+    &:hover {
+        background-image: url('/img/remove-icon-hover.png');
+    }
+}

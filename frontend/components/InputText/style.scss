@@ -1,0 +1,15 @@
+@import './frontend/variables.scss';
+
+.input-text {
+    @include divider('bottom');
+    width: 95%;
+    height: 70px;
+    border: 0;
+    margin: 15px 5%;
+    background-color: inherit;
+    color: $passive-color;
+    font: inherit;
+    &:focus {
+        outline: 0;
+    }
+}

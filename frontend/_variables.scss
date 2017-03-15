@@ -1,0 +1,25 @@
+/**
+ * COLORS
+*/
+
+$app-background-color: #333;
+
+$static-color: #ddd;
+$active-color: #fff;
+$passive-color: #bbb;
+$barely-noticeable-color: #555;
+
+
+/**
+ * FONTS
+*/
+
+$base-font-size: 50px;
+
+
+/**
+ * MIXINS
+*/
+@mixin divider($type) {
+    border-#{$type}: 2px #444 solid;
+}
